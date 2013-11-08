@@ -427,5 +427,7 @@
   <project path="packages/apps/Mms"  name="tjarnold/blackout_packages_apps_Mms"/>
   <project path="packages/apps/Settings" name="tjarnold/blackout_packages_apps_Settings" />
   <project path="packages/inputmethods/LatinIME" name="tjarnold/blackout_packages_inputmethods_LatinIME" />
-  <project path="vendor/blackout" name="tjarnold/vendor_blackout" remote="github" revision="master" />
+  <project path="vendor/blackout" name="tjarnold/vendor_blackout" revision="master" >
+    <copyfile src="tools/build-blk.sh" dest="build-blk.sh" />
+  </project>
 </manifest>
