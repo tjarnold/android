@@ -468,7 +468,7 @@
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Mms"  name="CyanogenMod/android_packages_apps_Mms"/>
   <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
-  <project path="packages/inputmethods/LatinIME" name="tjarnold/android_packages_inputmethods_LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" />
   <project path="vendor/blackout" name="tjarnold/vendor_blackout" revision="master" >
     <copyfile src="tools/build-blk.sh" dest="build-blk.sh" />
   </project>
